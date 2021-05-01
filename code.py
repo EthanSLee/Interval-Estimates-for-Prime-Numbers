@@ -1,3 +1,7 @@
+#Credit to Michaela Cully-Hugill for writing this .py document.
+#This is supplementary code for the computations in the paper "Explicit Interval Estimates for Prime Numbers" by M. Cully-Hugill and E. S. Lee.
+#Our paper is available at https://arxiv.org/abs/2103.05986.
+
 import sympy as sym
 from sympy import N
 

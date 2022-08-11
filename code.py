@@ -1,7 +1,3 @@
-#Credit to Michaela Cully-Hugill for writing this .py document.
-#This is supplementary code for the computations in the paper "Explicit Interval Estimates for Prime Numbers" by M. Cully-Hugill and E. S. Lee.
-
-
 """
 Version: 29 June 2022
 

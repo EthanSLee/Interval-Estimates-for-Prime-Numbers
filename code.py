@@ -38,8 +38,6 @@ A2 = mpf(1/150)              # A_2
 
 A  = 58773/10000            # A from Kadiri, Lumley, and Ng's zero-density estimate
 B  = 3869/1000              # B from Kadiri, Lumley, and Ng's zero-density estimate
-s0 = Fraction(7804/10000)   # \sigma_0
-
 
 def u(d,m):                 
     # u = \delta/m
@@ -193,7 +191,7 @@ def constraint1(p):
 
 
 x0 = exp(60)       # Is x_0 for a result holding for all x\geq x_0
-
+s0 = Fraction(7804/10000)   # \sigma_0
 
 ##-------------To print the constraint1 and \Delta for specific parameter values-----------
 
@@ -253,5 +251,6 @@ print(result.x, result.fun)     # Prints the final evalution of the differential
 # v[13] = [72, 5.361814e-11, 0.4699322, 1.002066e+12, 1]         # x0=e^600,     D= 2.51949e+11
 
 # for i in range(len(v)):
-#   print('exp(', round(log(Xo[i]),4), ')', round(constraint1(v[i],Xo[i]),10), nstr(-Delta(v[i]),6))
+#   x0 = Xo[i]
+#   print('exp(', round(log(Xo[i]),4), ')', round(constraint1(v[i]),10), nstr(-Delta(v[i]),6))
 # print(v)
